@@ -1,0 +1,158 @@
+body {
+    background-color: #f4f4f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #243a69;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.titulo {
+    margin: 0;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.menu-nav a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.menu-nav a:hover {
+    background-color: white;
+    color: #333;
+    text-decoration: underline;
+}
+
+
+.contenedor-imagen-lista {
+    background-color: #5b88a5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.imagen-lista-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-lista ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    color: #191013;
+}
+
+.seccion-titulo {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contenedor-seccion {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    background-color: #5b88a5;
+    color: #f4f4f2;
+    border: 2px solid #191013;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor img {
+    width: 150px; /* Ajustar el tamaño de la imagen */
+    height: 150px; /* Hacer la imagen cuadrada */
+    object-fit: cover; /* Asegurar que la imagen se recorte para llenar el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #1c2539;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.bacio {
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.datosSimple {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.datosSimple a {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 10px;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(80deg, #8ab4d2, #f4f4f2);
+}
+
+.bacio {
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+}
